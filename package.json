@@ -4,7 +4,7 @@
     "description": "@RaiseJS/ajax extends your RaiseJS core with many ajax fundamentals",
     "main": "./js/ajax.js",
     "author": "Victor Homic / the RaiseJS project",
-    "license": "GPL-3.0-or-later",
+    "license": "MPL-2.0",
     "scripts": {
         "build": "npm run copy && npm run polyfill && npm run compile:copy && npm run compile:poly && npm run license:prepend -- --dir='./js/'",
         "copy": "npx babel src --out-file js/ajax.js --copy-files --no-comments",
